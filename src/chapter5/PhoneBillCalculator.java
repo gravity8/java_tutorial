@@ -18,10 +18,10 @@ public class PhoneBillCalculator {
         double tax = CalculateTax(subTotal, taxPercentage);
         double total = CalculateFinal(tax,subTotal);
         System.out.println("Phone Bill Statement");
-        System.out.println("Plan: "+ planFees);
-        System.out.println("Overage: "+ overageMinutes);
-        System.out.println("Tax: "+ tax);
-        System.out.println("Total: "+ total);
+        System.out.println("Plan: $"+ planFees);
+        System.out.println("Overage: "+ overageMinutes+"min");
+        System.out.println("Tax: $"+ tax);
+        System.out.println("Total: $"+ total);
     }
     public static double CalculateOverageFees(double overageMinutes, double chargePerOverage){
         return overageMinutes*chargePerOverage;
