@@ -58,7 +58,7 @@ public class PhoneBillCalculatorRedo {
         System.out.println("Phone Bill Statement");
         System.out.println("Plan: $"+ baseCost);
         double overage= roundOff(calculateOverageFee());
-        System.out.println("Overage: "+ overage+"min");
+        System.out.println("Overage: $"+ overage);
         double tax = roundOff(CalculateTax());
         System.out.println("Tax: $"+ tax );
         double total = roundOff(CalculateFinal()) ;
