@@ -8,7 +8,7 @@ public class InstantiatePhoneBill {
         System.out.println("Input your id: ");
         Scanner scanner = new Scanner(System.in);
         int id = scanner.nextInt();
-        System.out.println("Input the base cost: ");
+        System.out.println("Input the base cost : ");
         double baseCost = scanner.nextDouble();
         System.out.println("Input the allotted time: ");
         int allottedTime = scanner.nextInt();
