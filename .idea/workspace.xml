@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89105941-1ce8-4e6a-a7b3-560343f03962" name="Changes" comment="TwoSum commit">
-      <change afterPath="$PROJECT_DIR$/src/chapter6/LoopingThroughArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise/NewPalindrome.java" afterDir="false" />
+    <list default="true" id="89105941-1ce8-4e6a-a7b3-560343f03962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exercise/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercise/sortingArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6/InstantiatePhoneBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6/InstantiatePhoneBill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter6/PhoneBillCalculatorRedo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6/PhoneBillCalculatorRedo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise/NewPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercise/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InstantiatePhoneBill">
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="InstantiatePhoneBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter6.InstantiatePhoneBill" />
       <module name="java_course" />
@@ -66,38 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingThroughArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.LoopingThroughArray" />
-      <module name="java_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.NewPalindrome" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.LongestPalindrome" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhoneBillCalculatorRedo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.PhoneBillCalculatorRedo" />
-      <module name="java_course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +92,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.ValidPalindrome" />
+      <module name="java_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.sortingArray" />
+      <module name="java_course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.sortingArray" />
         <item itemvalue="Application.InstantiatePhoneBill" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.NewPalindrome" />
-        <item itemvalue="Application.LoopingThroughArray" />
-        <item itemvalue="Application.PhoneBillCalculatorRedo" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688721467418</updated>
-      <workItem from="1688721468441" duration="73529000" />
+      <workItem from="1688721468441" duration="95186000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -170,7 +170,31 @@
       <option name="project" value="LOCAL" />
       <updated>1689152046892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Phone Bill">
+      <option name="closed" value="true" />
+      <created>1689159276535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159276535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Phone Bill">
+      <option name="closed" value="true" />
+      <created>1689159285411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159285411</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Phone Bill">
+      <option name="closed" value="true" />
+      <created>1689159367610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159367610</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +204,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="TwoSum commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="TwoSum commit" />
+    <MESSAGE value="Phone Bill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phone Bill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,7 +217,34 @@
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/chapter6/LoopingThroughArray.java</url>
+          <line>5</line>
+          <properties class="chapter6.LoopingThroughArray" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercise/sortingArray.java</url>
+          <line>3</line>
+          <properties class="exercise.sortingArray" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercise/ValidPalindrome.java</url>
+          <line>3</line>
+          <properties class="exercise.ValidPalindrome" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
